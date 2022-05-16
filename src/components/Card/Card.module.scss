@@ -1,0 +1,21 @@
+.itemcard {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin: 0;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
